@@ -145,6 +145,5 @@ WAGTAIL_SITE_NAME = 'Test Site'
 
 FLAGS = {
     'FLAG_ENABLED': {'boolean': True},
-    'FLAG_DISABLED': {},
-    'DB_FLAG': {},
+    'FLAG_DISABLED': {'path matches': '/disabled_path'},
 }
